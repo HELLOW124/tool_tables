@@ -89,6 +89,10 @@ function App() {
     setCurrentPage(1);
   };
 
+  const toggleDetails = (tool) => {
+    setActiveTool((prev) => (prev?.id === tool.id ? null : tool));
+  };
+
   const resetFilters = () => {
     setSearchTerm('');
     setCategoryFilter('all');
@@ -96,7 +100,7 @@ function App() {
   };
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${activeTool ? 'has-open-sidebar' : ''}`}>
       <div className="layout">
         <section className="panel">
           <header className="panel-header">
@@ -173,9 +177,9 @@ function App() {
                       <button
                         type="button"
                         className="btn-primary"
-                        onClick={() => setActiveTool(tool)}
+                        onClick={() => toggleDetails(tool)}
                       >
-                        View
+                        {activeTool?.id === tool.id ? 'Close' : 'View'}
                       </button>
                     </td>
                   </tr>
@@ -225,37 +229,50 @@ function App() {
             </div>
           </footer>
         </section>
-
-        <aside className={`sidebar ${activeTool ? 'open' : ''}`}>
-          <div className="sidebar-head">
-            <h2>Tool Details</h2>
-            <button
-              type="button"
-              className="close-btn"
-              onClick={() => setActiveTool(null)}
-            >
-              x
-            </button>
-          </div>
-          {activeTool ? (
-            <div className="sidebar-content">
-              <p>
-                <strong>id:</strong> {activeTool.id}
-              </p>
-              <p>
-                <strong>name:</strong> {activeTool.name}
-              </p>
-              <p>
-                <strong>description:</strong> {activeTool.description}
-              </p>
-            </div>
-          ) : (
-            <p className="sidebar-placeholder">
-              Select a tool to view where and how it can be used.
-            </p>
-          )}
-        </aside>
       </div>
+
+      <button
+        type="button"
+        className={`sidebar-overlay ${activeTool ? 'show' : ''}`}
+        onClick={() => setActiveTool(null)}
+        aria-label="Close tool details"
+      />
+
+      <aside className={`sidebar ${activeTool ? 'open' : ''}`}>
+        <div className="sidebar-head">
+          <h2>Tool Details</h2>
+          <button
+            type="button"
+            className="close-btn"
+            onClick={() => setActiveTool(null)}
+          >
+            x
+          </button>
+        </div>
+        {activeTool ? (
+          <div className="sidebar-content">
+            <img
+              className="tool-image"
+              src={activeTool.image}
+              alt={activeTool.name}
+              loading="lazy"
+            />
+            <p>
+              <strong>id:</strong> {activeTool.id}
+            </p>
+            <p>
+              <strong>name:</strong> {activeTool.name}
+            </p>
+            <p>
+              <strong>description:</strong> {activeTool.description}
+            </p>
+          </div>
+        ) : (
+          <p className="sidebar-placeholder">
+            Select a tool to view where and how it can be used.
+          </p>
+        )}
+      </aside>
     </div>
   );
 }
