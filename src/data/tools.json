@@ -2,350 +2,350 @@
     {
         "id":  1,
         "name":  "Adjustable Wrench",
-        "price":  10.35,
+        "price":  6.21,
         "category":  "Hand Tools",
         "description":  "Adjustable Wrench is used for home repair in places such as workshops."
     },
     {
         "id":  2,
         "name":  "Claw Hammer",
-        "price":  12.7,
+        "price":  7.62,
         "category":  "Power Tools",
         "description":  "Claw Hammer is used for construction in places such as garages."
     },
     {
         "id":  3,
         "name":  "Cordless Drill",
-        "price":  15.05,
+        "price":  9.03,
         "category":  "Measuring Tools",
         "description":  "Cordless Drill is used for automotive service in places such as job sites."
     },
     {
         "id":  4,
         "name":  "Circular Saw",
-        "price":  17.4,
+        "price":  10.44,
         "category":  "Electrical Tools",
         "description":  "Circular Saw is used for woodworking shop in places such as homes."
     },
     {
         "id":  5,
         "name":  "Tape Measure",
-        "price":  19.75,
+        "price":  11.85,
         "category":  "Safety Tools",
         "description":  "Tape Measure is used for plumbing work in places such as warehouses."
     },
     {
         "id":  6,
         "name":  "Utility Knife",
-        "price":  22.1,
+        "price":  13.26,
         "category":  "Hand Tools",
         "description":  "Utility Knife is used for electrical installation in places such as factories."
     },
     {
         "id":  7,
         "name":  "Needle Nose Pliers",
-        "price":  24.45,
+        "price":  14.67,
         "category":  "Power Tools",
         "description":  "Needle Nose Pliers is used for metal fabrication in places such as maintenance rooms."
     },
     {
         "id":  8,
         "name":  "Socket Set",
-        "price":  26.8,
+        "price":  16.08,
         "category":  "Measuring Tools",
         "description":  "Socket Set is used for painting projects in places such as tool vans."
     },
     {
         "id":  9,
         "name":  "Allen Key Set",
-        "price":  29.15,
+        "price":  17.49,
         "category":  "Electrical Tools",
         "description":  "Allen Key Set is used for garden maintenance in places such as schools."
     },
     {
         "id":  10,
         "name":  "Spirit Level",
-        "price":  31.5,
+        "price":  18.90,
         "category":  "Safety Tools",
         "description":  "Spirit Level is used for facility maintenance in places such as retail stores."
     },
     {
         "id":  11,
         "name":  "Orbital Sander",
-        "price":  33.85,
+        "price":  20.31,
         "category":  "Hand Tools",
         "description":  "Orbital Sander is used for home repair in places such as workshops."
     },
     {
         "id":  12,
         "name":  "Heat Gun",
-        "price":  36.2,
+        "price":  21.72,
         "category":  "Power Tools",
         "description":  "Heat Gun is used for construction in places such as garages."
     },
     {
         "id":  13,
         "name":  "Bolt Cutter",
-        "price":  38.55,
+        "price":  23.13,
         "category":  "Measuring Tools",
         "description":  "Bolt Cutter is used for automotive service in places such as job sites."
     },
     {
         "id":  14,
         "name":  "Pipe Wrench",
-        "price":  40.9,
+        "price":  24.54,
         "category":  "Electrical Tools",
         "description":  "Pipe Wrench is used for woodworking shop in places such as homes."
     },
     {
         "id":  15,
         "name":  "Stud Finder",
-        "price":  43.25,
+        "price":  25.95,
         "category":  "Safety Tools",
         "description":  "Stud Finder is used for plumbing work in places such as warehouses."
     },
     {
         "id":  16,
         "name":  "Laser Level",
-        "price":  45.6,
+        "price":  27.36,
         "category":  "Hand Tools",
         "description":  "Laser Level is used for electrical installation in places such as factories."
     },
     {
         "id":  17,
         "name":  "Impact Driver",
-        "price":  47.95,
+        "price":  28.77,
         "category":  "Power Tools",
         "description":  "Impact Driver is used for metal fabrication in places such as maintenance rooms."
     },
     {
         "id":  18,
         "name":  "Jigsaw",
-        "price":  50.3,
+        "price":  30.18,
         "category":  "Measuring Tools",
         "description":  "Jigsaw is used for painting projects in places such as tool vans."
     },
     {
         "id":  19,
         "name":  "Angle Grinder",
-        "price":  52.65,
+        "price":  31.59,
         "category":  "Electrical Tools",
         "description":  "Angle Grinder is used for garden maintenance in places such as schools."
     },
     {
         "id":  20,
         "name":  "Bench Vise",
-        "price":  55,
+        "price":  33.0,
         "category":  "Safety Tools",
         "description":  "Bench Vise is used for facility maintenance in places such as retail stores."
     },
     {
         "id":  21,
         "name":  "Multimeter",
-        "price":  57.35,
+        "price":  34.41,
         "category":  "Hand Tools",
         "description":  "Multimeter is used for home repair in places such as workshops."
     },
     {
         "id":  22,
         "name":  "Wire Stripper",
-        "price":  59.7,
+        "price":  35.82,
         "category":  "Power Tools",
         "description":  "Wire Stripper is used for construction in places such as garages."
     },
     {
         "id":  23,
         "name":  "Crimping Tool",
-        "price":  62.05,
+        "price":  37.23,
         "category":  "Measuring Tools",
         "description":  "Crimping Tool is used for automotive service in places such as job sites."
     },
     {
         "id":  24,
         "name":  "Reciprocating Saw",
-        "price":  64.4,
+        "price":  38.64,
         "category":  "Electrical Tools",
         "description":  "Reciprocating Saw is used for woodworking shop in places such as homes."
     },
     {
         "id":  25,
         "name":  "Chisel Set",
-        "price":  66.75,
+        "price":  40.05,
         "category":  "Safety Tools",
         "description":  "Chisel Set is used for plumbing work in places such as warehouses."
     },
     {
         "id":  26,
         "name":  "Putty Knife",
-        "price":  69.1,
+        "price":  41.46,
         "category":  "Hand Tools",
         "description":  "Putty Knife is used for electrical installation in places such as factories."
     },
     {
         "id":  27,
         "name":  "Caulking Gun",
-        "price":  71.45,
+        "price":  42.87,
         "category":  "Power Tools",
         "description":  "Caulking Gun is used for metal fabrication in places such as maintenance rooms."
     },
     {
         "id":  28,
         "name":  "Staple Gun",
-        "price":  73.8,
+        "price":  44.28,
         "category":  "Measuring Tools",
         "description":  "Staple Gun is used for painting projects in places such as tool vans."
     },
     {
         "id":  29,
         "name":  "Rivet Gun",
-        "price":  76.15,
+        "price":  45.69,
         "category":  "Electrical Tools",
         "description":  "Rivet Gun is used for garden maintenance in places such as schools."
     },
     {
         "id":  30,
         "name":  "Plumbing Snake",
-        "price":  78.5,
+        "price":  47.10,
         "category":  "Safety Tools",
         "description":  "Plumbing Snake is used for facility maintenance in places such as retail stores."
     },
     {
         "id":  31,
         "name":  "Masonry Trowel",
-        "price":  80.85,
+        "price":  48.51,
         "category":  "Hand Tools",
         "description":  "Masonry Trowel is used for home repair in places such as workshops."
     },
     {
         "id":  32,
         "name":  "Tile Cutter",
-        "price":  83.2,
+        "price":  49.92,
         "category":  "Power Tools",
         "description":  "Tile Cutter is used for construction in places such as garages."
     },
     {
         "id":  33,
         "name":  "Paint Sprayer",
-        "price":  85.55,
+        "price":  51.33,
         "category":  "Measuring Tools",
         "description":  "Paint Sprayer is used for automotive service in places such as job sites."
     },
     {
         "id":  34,
         "name":  "Hand Saw",
-        "price":  87.9,
+        "price":  52.74,
         "category":  "Electrical Tools",
         "description":  "Hand Saw is used for woodworking shop in places such as homes."
     },
     {
         "id":  35,
         "name":  "Hacksaw",
-        "price":  90.25,
+        "price":  54.15,
         "category":  "Safety Tools",
         "description":  "Hacksaw is used for plumbing work in places such as warehouses."
     },
     {
         "id":  36,
         "name":  "Tool Belt",
-        "price":  92.6,
+        "price":  55.56,
         "category":  "Hand Tools",
         "description":  "Tool Belt is used for electrical installation in places such as factories."
     },
     {
         "id":  37,
         "name":  "Safety Goggles",
-        "price":  94.95,
+        "price":  56.97,
         "category":  "Power Tools",
         "description":  "Safety Goggles is used for metal fabrication in places such as maintenance rooms."
     },
     {
         "id":  38,
         "name":  "Work Gloves",
-        "price":  97.3,
+        "price":  58.38,
         "category":  "Measuring Tools",
         "description":  "Work Gloves is used for painting projects in places such as tool vans."
     },
     {
         "id":  39,
         "name":  "Torque Wrench",
-        "price":  99.65,
+        "price":  59.79,
         "category":  "Electrical Tools",
         "description":  "Torque Wrench is used for garden maintenance in places such as schools."
     },
     {
         "id":  40,
         "name":  "Grease Gun",
-        "price":  102,
+        "price":  61.2,
         "category":  "Safety Tools",
         "description":  "Grease Gun is used for facility maintenance in places such as retail stores."
     },
     {
         "id":  41,
         "name":  "Air Compressor",
-        "price":  104.35,
+        "price":  62.61,
         "category":  "Hand Tools",
         "description":  "Air Compressor is used for home repair in places such as workshops."
     },
     {
         "id":  42,
         "name":  "Pressure Washer",
-        "price":  106.7,
+        "price":  64.02,
         "category":  "Power Tools",
         "description":  "Pressure Washer is used for construction in places such as garages."
     },
     {
         "id":  43,
         "name":  "Lawn Edger",
-        "price":  109.05,
+        "price":  65.43,
         "category":  "Measuring Tools",
         "description":  "Lawn Edger is used for automotive service in places such as job sites."
     },
     {
         "id":  44,
         "name":  "Pruning Shears",
-        "price":  111.4,
+        "price":  66.84,
         "category":  "Electrical Tools",
         "description":  "Pruning Shears is used for woodworking shop in places such as homes."
     },
     {
         "id":  45,
         "name":  "Chainsaw",
-        "price":  113.75,
+        "price":  68.25,
         "category":  "Safety Tools",
         "description":  "Chainsaw is used for plumbing work in places such as warehouses."
     },
     {
         "id":  46,
         "name":  "Soldering Iron",
-        "price":  116.1,
+        "price":  69.66,
         "category":  "Hand Tools",
         "description":  "Soldering Iron is used for electrical installation in places such as factories."
     },
     {
         "id":  47,
         "name":  "Inspection Camera",
-        "price":  118.45,
+        "price":  71.07,
         "category":  "Power Tools",
         "description":  "Inspection Camera is used for metal fabrication in places such as maintenance rooms."
     },
     {
         "id":  48,
         "name":  "Shop Vacuum",
-        "price":  120.8,
+        "price":  72.48,
         "category":  "Measuring Tools",
         "description":  "Shop Vacuum is used for painting projects in places such as tool vans."
     },
     {
         "id":  49,
         "name":  "Nail Gun",
-        "price":  123.15,
+        "price":  73.89,
         "category":  "Electrical Tools",
         "description":  "Nail Gun is used for garden maintenance in places such as schools."
     },
     {
         "id":  50,
         "name":  "Stud Punch",
-        "price":  125.5,
+        "price":  75.30,
         "category":  "Safety Tools",
         "description":  "Stud Punch is used for facility maintenance in places such as retail stores."
     }

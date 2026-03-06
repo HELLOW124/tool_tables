@@ -2,6 +2,12 @@ import './App.css';
 import { useMemo, useState } from 'react';
 import toolsData from './data/tools.json';
 
+const pesoFormatter = new Intl.NumberFormat('en-PH', {
+  style: 'currency',
+  currency: 'PHP',
+  minimumFractionDigits: 2,
+});
+
 function App() {
   const [orderIds, setOrderIds] = useState(toolsData.map((tool) => tool.id));
   const [searchTerm, setSearchTerm] = useState('');
@@ -160,7 +166,7 @@ function App() {
                       </button>
                     </td>
                     <td>{tool.name}</td>
-                    <td>${tool.price.toFixed(2)}</td>
+                    <td>{pesoFormatter.format(tool.price)}</td>
                     <td>{tool.category}</td>
                     <td>
                       <button
