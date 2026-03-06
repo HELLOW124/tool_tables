@@ -149,11 +149,12 @@ function App() {
                 )}
                 {pagedTools.map((tool) => (
                   <tr
+                    className="data-row"
                     key={tool.id}
                     onDragOver={(event) => event.preventDefault()}
                     onDrop={() => handleDrop(tool.id)}
                   >
-                    <td>
+                    <td data-label="ID">
                       <button
                         type="button"
                         className={`drag-id ${draggedId === tool.id ? 'dragging' : ''}`}
@@ -165,10 +166,10 @@ function App() {
                         {tool.id}
                       </button>
                     </td>
-                    <td>{tool.name}</td>
-                    <td>{pesoFormatter.format(tool.price)}</td>
-                    <td>{tool.category}</td>
-                    <td>
+                    <td data-label="Name">{tool.name}</td>
+                    <td data-label="Price">{pesoFormatter.format(tool.price)}</td>
+                    <td data-label="Category">{tool.category}</td>
+                    <td data-label="Details">
                       <button
                         type="button"
                         className="btn-primary"
